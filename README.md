@@ -59,23 +59,20 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |       |           |  Implementieren der Funktion, um Einsätze auf Zahlen zu platzieren.            |               |
-| 2.A  |       |           |  Implementieren der Funktion, um Einsätze auf Farben (Rot, Schwarz, Grün) zu platzieren.
-            |               |
+| 2.A  |       |           |  Implementieren der Funktion, um Einsätze auf Farben (Rot, Schwarz, Grün) zu platzieren.          |               |
 | 3.A  |       |           | Testen und Debuggen der Einsatzplatzierungslogik.             |               |
 | 4.A  |       |           | Hinzufügen der Logik für minimale Einsatzgrenzen.             |               |
 | 5.A  |       |           | Hinzufügen der Logik für maximale Einsatzgrenzen.             |               |
 |6.A  |       |           |  Testen und Validieren der Einsatzgrenzen.            |               |
 | 7.A  |       |           |  Implementieren der Berechnung des Gewinns bei einer erfolgreichen Wette.            |               |
-| 8.A  |       |           | Implementieren der Anzeige von Gewinn oder Verlust nach jedem Dreh.
-             |               |
+| 8.A  |       |           | Implementieren der Anzeige von Gewinn oder Verlust nach jedem Dreh.          |               |
 | 9.A  |       |           | Testen und Debuggen der Gewinnanzeigefunktion.             |               |
-| 10.A  |       |           |  Erstellen der Animation für das Drehen des Roulette-Rads.            |               |
+| 10.A  |       |           |  Erstellen der Animation für das Drehen des Roulette-Rads.       |               |
 | 11.A  |       |           |  Integrieren der Animation in den Dreh-Workflow.            |               |
 | 12.A  |       |           | Sicherstellen, dass die Animation flüssig und fehlerfrei läuft.             |               |
 | 13.A  |       |           | Gestalten des Roulette-Rads mit nummerierten und farbigen Feldern.             |               |
 | 14.A  |       |           | Implementieren der Benutzeroberfläche für die Einsatzplatzierung.             |               |
-| 15.A  |       |           | Testen der grafischen Darstellung auf verschiedenen Bildschirmgrößen.
-             |               |
+| 15.A  |       |           | Testen der grafischen Darstellung auf verschiedenen Bildschirmgrößen.           |               |
 | 16.A  |       |           |  Implementieren der Logik zum Zurücksetzen aller Einsätze nach einer Runde.            |               |
 | 17.A  |       |           | Testen der Reset-Funktion nach mehreren Runden.             |               |
 | 18.A  |       |           |  Erstellen einer Funktion, die eine zufällige Gewinnzahl generiert.            |               |
