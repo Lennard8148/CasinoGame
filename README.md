@@ -137,14 +137,14 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |  13.12.2024     |          |  Filip und Lennard       |
-| 2.1  |13.12.2024        |          |  Filip und Lennard        |
-| 3.1  |13.12.2024        |          |  Filip und Lennard        |
-| 4.1  |13.12.2024       |          | Filip und Lennard         |
-| 5.1  | 13.12.2024       |          | Filip und Lennard         |
-| 6.1  | 13.12.2024       |          | Filip und Lennard         |
-| 7.1  | 13.12.2024       |          | Filip und Lennard         |
-| 8.1  | 13.12.2024       |          | Filip und Lennard         |
+| 1.1  |  13.12.2024     |Funktioniert|  Filip und Lennard       |
+| 2.1  |13.12.2024        |Funktioniert|  Filip und Lennard        |
+| 3.1  |13.12.2024        |Funktioniert|  Filip und Lennard        |
+| 4.1  |13.12.2024       |Funktioniert| Filip und Lennard         |
+| 5.1  | 13.12.2024       |Funktioniert| Filip und Lennard         |
+| 6.1  | 13.12.2024       |Funktioniert| Filip und Lennard         |
+| 7.1  | 13.12.2024       |Funktioniert| Filip und Lennard         |
+| 8.1  | 13.12.2024       |Funktioniert| Filip und Lennard         |
 
 
 ## Fazit
