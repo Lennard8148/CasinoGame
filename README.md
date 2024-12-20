@@ -58,43 +58,37 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |  Implementieren der Funktion, um Einsätze auf Zahlen zu platzieren.            |               |
-| 2.A  |       |           |  Implementieren der Funktion, um Einsätze auf Farben (Rot, Schwarz, Grün) zu platzieren.          |               |
-| 3.A  |       |           | Testen und Debuggen der Einsatzplatzierungslogik.             |               |
-| 4.A  |       |           | Hinzufügen der Logik für minimale Einsatzgrenzen.             |               |
-| 5.A  |       |           | Hinzufügen der Logik für maximale Einsatzgrenzen.             |               |
-|6.A  |       |           |  Testen und Validieren der Einsatzgrenzen.            |               |
-| 7.A  |       |           |  Implementieren der Berechnung des Gewinns bei einer erfolgreichen Wette.            |               |
-| 8.A  |       |           | Implementieren der Anzeige von Gewinn oder Verlust nach jedem Dreh.          |               |
-| 9.A  |       |           | Testen und Debuggen der Gewinnanzeigefunktion.             |               |
-| 10.A  |       |           |  Erstellen der Animation für das Drehen des Roulette-Rads.       |               |
-| 11.A  |       |           |  Integrieren der Animation in den Dreh-Workflow.            |               |
-| 12.A  |       |           | Sicherstellen, dass die Animation flüssig und fehlerfrei läuft.             |               |
-| 13.A  |       |           | Gestalten des Roulette-Rads mit nummerierten und farbigen Feldern.             |               |
-| 14.A  |       |           | Implementieren der Benutzeroberfläche für die Einsatzplatzierung.             |               |
-| 15.A  |       |           | Testen der grafischen Darstellung auf verschiedenen Bildschirmgrößen.           |               |
-| 16.A  |       |           |  Implementieren der Logik zum Zurücksetzen aller Einsätze nach einer Runde.            |               |
-| 17.A  |       |           | Testen der Reset-Funktion nach mehreren Runden.             |               |
-| 18.A  |       |           |  Erstellen einer Funktion, die eine zufällige Gewinnzahl generiert.            |               |
-| 19.A  |       |           |  Validieren der Zufallszahlen, um Fairness sicherzustellen.            |               |
-| 20.A  |       |           | Entwickeln der Logik, um Einsätze mit der Gewinnzahl abzugleichen.             |               |
-| 21.A  |       |           |  Testen der Abgleichlogik für verschiedene Einsatzarten.            |               |
-| 22.A  |       |           |  Hinzufügen von Soundeffekten für Dreh und Gewinnanzeige.
-            |               |
-| 23.A  |       |           |Integrieren von visuellen Effekten bei einem Gewinn (z. B. blinkende Zahlen).              |               |
-| 24.A  |       |           | Testen der Benutzeroberfläche auf intuitive Bedienbarkeit.             |               |
-| 25.A  |       |           | Implementieren von Fehlermeldungen bei ungültigen Einsätzen.             |               |
-| 26.A  |       |           |  Testen der Fehlerbehandlungslogik bei außergewöhnlichen Eingaben.            |               |
-| 27.A  |       |           | Optimieren der Ladezeit und der Animationen für bessere Performance.             |               |
-| 28.A  |       |           | Testen des Spiels auf verschiedenen Geräten und Browsern.             |               |
-| 29.A  |       |           | Erstellen einer Benutzeranleitung für die Verwendung des Spiels.             |               |
+| 1.A  |  20.12.2024     |   Filip        |  Implementieren der Funktion, um Einsätze auf Zahlen zu platzieren.            |   100 min            |
+| 2.A  | 20.12.2024       |  Filip         |  Implementieren der Funktion, um Einsätze auf Farben (Rot, Schwarz, Grün) zu platzieren.          |   100 min            |
+| 3.A  | 20.12.2024       |  Filip         | Testen und Debuggen der Einsatzplatzierungslogik.             |    90 min           |
+| 4.A  | 20.12.2024       |  Filip         | Hinzufügen der Logik für minimale Einsatzgrenzen.             |  80 min             |
+| 5.A  | 20.12.2024       | Filip          | Hinzufügen der Logik für maximale Einsatzgrenzen.             |  80 min             |
+|6.A  |  20.12.2024      |  Filip         |  Testen und Validieren der Einsatzgrenzen.            |  80 min             |
+| 7.A  | 20.12.2024       | Filip          |  Implementieren der Berechnung des Gewinns bei einer erfolgreichen Wette.            | 90 min              |
+| 8.A  | 20.12.2024       |  Filip         | Implementieren der Anzeige von Gewinn oder Verlust nach jedem Dreh.          |     100 min          |
+| 9.A  | 20.12.2024       |  Filip         | Testen und Debuggen der Gewinnanzeigefunktion.             |  100 min             |
+| 10.A  | 20.12.2024       |  Raul         |  Erstellen der Animation für das Drehen des Roulette-Rads.       |  100 min             |
+| 11.A  | 20.12.2024       |    Raul       |  Integrieren der Animation in den Dreh-Workflow.            |     120 min          |
+| 12.A  | 20.12.2024       |   Raul        | Sicherstellen, dass die Animation flüssig und fehlerfrei läuft.             |  120 min             |
+| 13.A  | 20.12.2024       |   Raul        | Gestalten des Roulette-Rads mit nummerierten und farbigen Feldern.             | 120 min              |
+| 14.A  |20.12.2024        |   Raul        | Implementieren der Benutzeroberfläche für die Einsatzplatzierung.             |     100 min          |
+| 15.A  | 20.12.2024       |   Raul        | Testen der grafischen Darstellung auf verschiedenen Bildschirmgrößen.           |  100 min             |
+| 16.A  | 20.12.2024       |   Raul        |  Implementieren der Logik zum Zurücksetzen aller Einsätze nach einer Runde.            | 120 min              |
+| 17.A  | 20.12.2024       | Raul          | Testen der Reset-Funktion nach mehreren Runden.             |   120 min            |
+| 18.A  | 20.12.2024       |  Filip         |  Erstellen einer Funktion, die eine zufällige Gewinnzahl generiert.            | 140 min              |
+| 19.A  | 20.12.2024       |  Filip         |  Validieren der Zufallszahlen, um Fairness sicherzustellen.            |   80 min            |
+| 20.A  |20.12.2024        |  Filip         | Entwickeln der Logik, um Einsätze mit der Gewinnzahl abzugleichen.             |  150 min             |
+| 21.A  | 20.12.2024       |  Filip         |  Testen der Abgleichlogik für verschiedene Einsatzarten.            |  120 min             |
+| 22.A  | 20.12.2024       |  Lennard         |  Hinzufügen von Soundeffekten für Dreh und Gewinnanzeige.         |      150 min         |
+| 23.A  |20.12.2024        | Lennard          |Integrieren von visuellen Effekten bei einem Gewinn (z. B. blinkende Zahlen).              |   90 min            |
+| 24.A  | 20.12.2024       | Lennard          | Testen der Benutzeroberfläche auf intuitive Bedienbarkeit.             |  130 min             |
+| 25.A  | 20.12.2024       | Lennard          | Implementieren von Fehlermeldungen bei ungültigen Einsätzen.             |    160 min           |
+| 26.A  |20.12.2024        | Lennard         |  Testen der Fehlerbehandlungslogik bei außergewöhnlichen Eingaben.            |   120 min            |
+| 27.A  |20.12.2024        | Lennard          | Optimieren der Ladezeit und der Animationen für bessere Performance.             | 120 min              |
+| 28.A  | 20.12.2024       | Lennard          | Testen des Spiels auf verschiedenen Geräten und Browsern.             |    120 min           |
+| 29.A  |20.12.2024        | Lennard          | Erstellen einer Benutzeranleitung für die Verwendung des Spiels.       |   120 min            |
+| 30.A  |20.12.2024        | Lennard          | Erstellen der Dokumentation       |      200 min         |
 
-
-Total: 
-
-
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
@@ -104,20 +98,54 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 22.11      |  Filip         |  100 min             |    120 min               |
+| 2.A  |   22.11     |  Filip         |  100 min             |   110 min                |
+| 3.A  |   22.11     |  Filip         |    90 min           |     100 min              |
+| 4.A  |   22.11     |  Filip         |  80 min             |   80 min                |
+| 5.A  |   29.11     |  Filip         | 80 min              |   90 min                |
+| 6.A  |   29.11     |  Filip         |  80 min             |    90 min               |
+| 7.A  |  29.11      |  Filip         |  90 min             |   80 min                |
+| 8.A  |   29.11     |  Filip         |   100 min            |   110 min                |
+| 9.A  |  29.11     |  Filip         |  100 min             |    90 min               |
+| 10.A  | 29.11       | Raul            |  100 min             |   90 min                |
+| 11.A  |   22.11      |  Raul            | 120 min              | 120 min                  |
+| 12.A  |   22.11      |  Raul            |  120 min                | 120 min                  |
+| 13.A  |   22.11      | Raul             |  120 min                |   120 min                |
+| 14.A  |   22.11      | Raul             |  100 min             |   120 min                |
+| 15.A  |  29.11       | Raul             |  100 min             |    110 min               |
+| 16.A  | 06.12        | Raul             |   120 min            |      110 min             |
+| 17.A  |   03.12     | Raul             |   120 min            |     120 min              |
+| 18.A  |   13.12     | Filip           | 140 min              |      150 in             |
+| 19.A  |   06.12    |  Filip          |   80 min            |    120 min               |
+| 20.A  |   06.12     |  Filip          |   150 min            | 150 min                  |
+| 21.A  |    13.12   | Filip           |  120 min             |  120 min                 |
+| 22.A  |    22.11    |  Lennard         |  150 min             |    150 min               |
+| 23.A  |    22.11    |  Lennard         |  90 min             |   100 min                |
+| 24.A  |    29.11       |    Lennard       |  130 min             |   100 min                |
+| 25.A  |   29.11        |  Lennard         |  160 min             |    180 min               |
+| 26.A  |    29.11       |  Lennard         |  120 min             |  120 min                 |
+| 27.A  |    22.11    |  Lennard         |   120 min            |   130 min                |
+| 28.A  |   03.12    |  Lennard         |  120 min             |  110 min                 |
+| 29.A  |  10.12      |  Lennard         |   120 min            |   140 min                |
+| 30.A  |     20.12  | Lennard          |  200 min             |    210 min               |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
+
+
 
 ## 5 Kontrollieren
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |  13.12.2024     |          |  Filip und Lennard       |
+| 2.1  |13.12.2024        |          |  Filip und Lennard        |
+| 3.1  |13.12.2024        |          |  Filip und Lennard        |
+| 4.1  |13.12.2024       |          | Filip und Lennard         |
+| 5.1  | 13.12.2024       |          | Filip und Lennard         |
+| 6.1  | 13.12.2024       |          | Filip und Lennard         |
+| 7.1  | 13.12.2024       |          | Filip und Lennard         |
+| 8.1  | 13.12.2024       |          | Filip und Lennard         |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+## Fazit
+Das Projekt war ein voller Erfolg, trotz einiger Herausforderungen, die wir erfolgreich gemeistert haben. Die Zusammenarbeit im Team machte das Programmieren zu einer spannenden und unterhaltsamen Erfahrung. Besonders erfreulich war, dass beim Testen alles reibungslos funktionierte und unsere Erwartungen erfüllt wurden. Insgesamt sind wir stolz auf das Ergebnis und blicken zufrieden auf eine lehrreiche und motivierende Entwicklungsphase zurück.
