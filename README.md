@@ -5,21 +5,19 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|08.11.24| 0.0.1   |                                                              |
-|15.11.24| 0.0.2   |                                                              |
-|22.11.24| 0.0.3   |                                                              |
-|29.11.24| 0.0.4  |                                                              |
-|06.12.24| 0.0.5   |                                                              |
-|13.12.24| 0.0.6   |                                                              |
-|20.12.24| 1.0.0   |                                                              |
+|08.11.24| 0.0.1   |Informiert und geplant|
+|15.11.24| 0.0.2   |Anfangen von Realisieren und der Dokumentation|
+|22.11.24| 0.0.3   |Roulette hat visuelle Darstellung, Slots kann man drehen|
+|29.11.24| 0.0.4  |Roulette hat Animationen und es werden Gewinnzahlen generiert, Slots funktioniert|
+|06.12.24| 0.0.5   |Roulette fertiggestellt|
+|13.12.24| 0.0.6   |Slots haben Bilder und Animationen, Anleitungen für die Spiele erstellt|
+|20.12.24| 1.0.0   |Dokumentation und Programm fertiggestellt|
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
-
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+Wir programmieren eine Casino-App, wo man Slots und Roulette spielen kann. Die App ist in JavaFX programmiert.
 
 ### 1.2 User Stories
 
@@ -52,7 +50,8 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 
 ### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
+![Screenshot 2024-12-20 110447](https://github.com/user-attachments/assets/18e5e7b3-db1e-441d-a712-969563d95da7)
+
 
 ## 2 Planen
 
