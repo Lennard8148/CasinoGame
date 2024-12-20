@@ -6,11 +6,11 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   |                                                              |
-|       | ...     |                                                              |
-|       | ...     |                                                              |
-|       | ...     |                                                              |
-|       | ...     |                                                              |
-|       | ...     |                                                              |
+|       | 0.0.2   |                                                              |
+|       | 0.0.3   |                                                              |
+|       | 0.0.4  |                                                              |
+|       | 0.0.5   |                                                              |
+|       | 0.0.6   |                                                              |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -29,8 +29,8 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 | 2  |   Muss              |  Funtional    |    Als User möchte ich, dass das Spiel minimale und maximale Einsatzgrenzen festlegt, damit ich meine Wetten sicher kontrollieren kann.                                |
 | 3  |       Muss          | Funtional     |    Als User möchte ich, dass nach jedem Dreh der Gewinn oder Verlust angezeigt wird, um die Ergebnisse meiner Wetten direkt zu sehen.                                |
 | 4  |     Kann            |   Qualität   |  Als User möchte ich, dass das Roulette-Rad eine realistische Animation hat, um ein authentisches Spielerlebnis zu geniessen.                                  |
-| 5  |     Muss            |Funktional      |Als User möchte ich, dass das Roulette-Rad farbige und nummerierte Felder darstellt, um die Platzierung meiner Einsätze klar nachvollziehen zu können                                |
-| 6  |   Muss              | Funktional     |  Als User möchte ich, dass alle Einsätze nach jeder Runde automatisch zurückgesetzt werden, um eine einfache Vorbereitung auf die nächste Runde zu haben.                                  |
+| 5  |     Muss            |Funktional      |Als User möchte ich, dass ein Text meine Wette und Einsatz anzeigt, um die Platzierung meiner Einsätze klar nachvollziehen zu können                                |
+| 6  |   Muss              | Funktional     |  Als User möchte ich, dass nach dem spielen ein Sound abgespielt wird, damit ich weiss, ob ich gewonnen oder verloren habe.                                  |
 | 7  |   Muss              |  Rand    |    Als User möchte ich, dass das Spiel eine zufällige Gewinnzahl generiert, um faire und unvorhersehbare Ergebnisse zu gewährleisten.                                |
 | 8  |  Muss               |Funktional      |Als User möchte ich, dass meine Einsätze automatisch mit der Gewinnzahl abgeglichen werden, damit mein Gewinnbetrag korrekt berechnet wird.        |
 
@@ -39,13 +39,13 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |     Spieler ist im Einsatzbildschirm.         | Spieler platziert 50 Chips auf die Zahl 17.        |   Der Einsatz wird akzeptiert und korrekt auf der Zahl 17 angezeigt.                |
-| 2.1  |    Spieler versucht, einen Einsatz zu platzieren.          | Spieler gibt 1000 Chips ein (über dem Höchstbetrag).        |  Der Einsatz wird abgelehnt, und eine Fehlermeldung wird angezeigt.                 |
+| 1.1  |     Spieler ist im Einsatzbildschirm.         | Spieler platziert 50 Chips auf die Zahl 17.        |   Der Einsatz wird akzeptiert.               |
+| 2.1  |    Spieler versucht, einen Einsatz zu platzieren.          | Spieler gibt 1000 Chips ein (über dem Höchstbetrag von 100).        |  Der Einsatz wird abgelehnt, und eine Fehlermeldung wird angezeigt.                 |
 | 3.1  |  Spieler hat Einsätze platziert und das Rad wurde gedreht.            | Das Roulette-Rad stoppt auf der Gewinnzahl der Wette.        |  Der Gewinn wird korrekt berechnet und angezeigt.                 |
-| 4.1  | Spieler startet den Dreh des Roulette-Rads.             |Spieler klickt auf "Drehen".         |   Die Animation des Rads startet und läuft flüssig.                |
+| 4.1  | Spieler startet den Dreh des Roulette-Rads.             |Spieler klickt auf "Spin".         |   Die Animation des Rads startet und läuft flüssig.                |
 | 5.1  |  Spieler sieht das Roulette-Rad.            |Spieler betrachtet die Darstellung.         |    Alle Felder des Rads sind korrekt nummeriert und gefärbt.               |
-| 6.1  |  Eine Runde ist beendet.            |  Spieler wartet auf die nächste Runde.       | Alle Einsätze werden zurückgesetzt, und die nächste Runde beginnt.                  |
-| 7.1  | Roulette-Rad wird gedreht             |    Spieler klickt auf "Drehen".     |   Eine zufällige Gewinnzahl zwischen 0 und 36 wird generiert.                |
+| 6.1  |  Eine Runde wurde gestartet.          |  Spieler klickt auf "Spin".      | Ein Sound wird abgespielt, abhängig davon, ob der Spieler gewonnen oder verloren hat.                |
+| 7.1  | Roulette-Rad wird gedreht             |    Spieler klickt auf "Spin".     |   Eine zufällige Gewinnzahl zwischen 0 und 36 wird generiert.                |
 | 8.1  | Spieler hat Einsätze auf Rot platziert.             | Das Roulette-Rad stoppt auf einer roten Zahl.        |   Der Einsatz wird als Gewinn erkannt, und der Betrag wird korrekt berechnet.                |
 
 
@@ -79,7 +79,7 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 | 19.A  | 20.12.2024       |  Filip         |  Validieren der Zufallszahlen, um Fairness sicherzustellen.            |   80 min            |
 | 20.A  |20.12.2024        |  Filip         | Entwickeln der Logik, um Einsätze mit der Gewinnzahl abzugleichen.             |  150 min             |
 | 21.A  | 20.12.2024       |  Filip         |  Testen der Abgleichlogik für verschiedene Einsatzarten.            |  120 min             |
-| 22.A  | 20.12.2024       |  Lennard         |  Hinzufügen von Soundeffekten für Dreh und Gewinnanzeige.         |      150 min         |
+| 22.A  | 20.12.2024       |  Filip u. Lennard         |  Hinzufügen von Soundeffekten für Dreh und Gewinnanzeige.         |      150 min         |
 | 23.A  |20.12.2024        | Lennard          |Integrieren von visuellen Effekten bei einem Gewinn (z. B. blinkende Zahlen).              |   90 min            |
 | 24.A  | 20.12.2024       | Lennard          | Testen der Benutzeroberfläche auf intuitive Bedienbarkeit.             |  130 min             |
 | 25.A  | 20.12.2024       | Lennard          | Implementieren von Fehlermeldungen bei ungültigen Einsätzen.             |    160 min           |
@@ -119,7 +119,7 @@ Lennard Bühler, Filip Kritzner, Raul Gilardoni
 | 19.A  |   06.12    |  Filip          |   80 min            |    120 min               |
 | 20.A  |   06.12     |  Filip          |   150 min            | 150 min                  |
 | 21.A  |    13.12   | Filip           |  120 min             |  120 min                 |
-| 22.A  |    22.11    |  Lennard         |  150 min             |    150 min               |
+| 22.A  |    22.11    |  Filip u. Lennard        |  150 min             |    150 min               |
 | 23.A  |    22.11    |  Lennard         |  90 min             |   100 min                |
 | 24.A  |    29.11       |    Lennard       |  130 min             |   100 min                |
 | 25.A  |   29.11        |  Lennard         |  160 min             |    180 min               |
