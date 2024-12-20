@@ -50,8 +50,7 @@ Wir programmieren eine Casino-App, wo man Slots und Roulette spielen kann. Die A
 
 ### 1.4 Diagramme
 
-![Screenshot 2024-12-20 110447](https://github.com/user-attachments/assets/18e5e7b3-db1e-441d-a712-969563d95da7)
-
+![CasinoApp drawio](https://github.com/user-attachments/assets/a8af20db-2a4f-45bd-bd9a-676d43ea3a02)
 
 ## 2 Planen
 
